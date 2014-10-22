@@ -11,7 +11,7 @@
  */
 
 #import "PSBroView.h"
-#import "JCRBlurView.h"//毛玻璃特效蒙版
+#import "JCRBlurView.h"//毛玻璃特效蒙版,又加了一条注释
 
 #define MARGIN 4.0
 
