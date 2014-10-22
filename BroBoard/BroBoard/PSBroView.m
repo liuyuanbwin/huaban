@@ -11,7 +11,7 @@
  */
 
 #import "PSBroView.h"
-#import "JCRBlurView.h"
+#import "JCRBlurView.h"//毛玻璃特效蒙版
 
 #define MARGIN 4.0
 
@@ -70,6 +70,7 @@ captionLabel = _captionLabel;
     CGFloat objectHeight = [[self.object objectForKey:@"height"] floatValue];
    // CGFloat objectWidth = 100;
     //CGFloat objectHeight = 100;
+    //
     CGFloat scaledHeight = floorf(objectHeight / (objectWidth / width));
     self.imageView.frame = CGRectMake(left, top, width, scaledHeight);
     
